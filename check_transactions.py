@@ -166,7 +166,7 @@ def main():
     value_title = [["address", "txid", "tran_info_from_trongrid","tran_info_from_tronscan","check_time"],]
     create_excel_xls(path,sheet_name,value_title)
     #--------------
-    # 对比余额是否相等
+    # 对比tronscan与trongrid上交易内容是否一直（内部交易）
     #--------------
     start_num = 20
     for i in range(0,500):    
